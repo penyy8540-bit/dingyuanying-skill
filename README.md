@@ -71,19 +71,19 @@
 
 ## 安装
 
-### 一行命令（推荐）
+### 一行命令（推荐 · 最省事）
+
+把下面这行**整段复制，丢给你的 AI**（Claude Code / Codex / Cursor），让它帮你下载安装，不用自己折腾路径：
 
 ```bash
-# 克隆到 skills 目录
-git clone https://github.com/YOUR_USERNAME/ding-yuanying-perspective \
-  ~/.claude/skills/ding-yuanying-perspective
+git clone https://github.com/penyy8540-bit/dingyuanying-skill ~/.claude/skills/ding-yuanying-perspective
 ```
 
-> Windows 用户替换路径为 `C:\Users\你的用户名\.claude\skills\ding-yuanying-perspective`
+> 这条命令会把整个 skill 下载到你的 skills 目录。AI 会自动识别你的系统（Windows / Mac / Linux）并放到正确位置——你只要把命令丢给它，说"帮我执行这个"就行。
 
 ### 手动安装
 
-下载 `SKILL.md`，放到你的 skills 目录下的 `ding-yuanying-perspective/` 文件夹即可。
+直接打开仓库 https://github.com/penyy8540-bit/dingyuanying-skill ，下载 `SKILL.md`（Skill 版）或 `hermes-profile.md`（Profile 版），放进你的 skills 目录即可。
 
 ---
 
